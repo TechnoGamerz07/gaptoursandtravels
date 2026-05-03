@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Box</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            width: 90%;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .form-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .input-box {
+            flex: 1;
+        }
+
+        label {
+            font-size: 14px;
+            color: gray;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            margin-top: 5px;
+            font-size: 16px;
+        }
+
+        .search-btn {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #ff6b3d;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e85c30;
+        }
+        {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 20px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        p {
+            color: gray;
+            margin-top: 0;
+        }
+
+        .container {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding-top: 20px;
+        }
+
+        .card {
+            min-width: 200px;
+            height: 280px;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+        }
+
+        .overlay h3 {
+            margin: 0;
+        }
+
+        .overlay p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="form-row">
+        
+        <div class="input-box">
+            <label>Where to</label>
+            <input type="text" placeholder="e.g. - Area, Landmark or Property Name">
+        </div>
+
+        <div class="input-box">
+            <label>Check-in</label>
+            <input type="date" value="2026-03-26">
+        </div>
+
+        <div class="input-box">
+            <label>Check-out</label>
+            <input type="date" value="2026-03-27">
+        </div>
+
+    
+    </div>
+
+    <div class="search-btn">
+        <button>SEARCH</button>
+    </div>
+</div>
+         <h1>Top Domestic Destinations</h1>
+<p>Apply code GOOFFER to unlock jaw-dropping deals!</p>
+
+<div class="container">
+
+    <div class="card">
+        <a href="http://127.0.0.1:5500/GAP/goa.html"><img src="https://images.travelxp.com/images/india/goa/Less_Crowded_and_Hidden_Beaches_in_Goa.png"></a>
+        <div class="overlay">
+            <h3>Goa</h3>
+            <p>Starting at ₹2,000 <br> Per person</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="http://127.0.0.1:5500/GAP/kerala.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAStkGvZwhKqQN7tZi2XoedkHPrEUOGcQo8Q&s"></a>
+        <div class="overlay">
+            <h3>Kerala</h3>
+            <p>Starting at ₹1,900 <br> Per person</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="http://127.0.0.1:5500/GAP/SI.HTML"><img src="https://www.viacation.com/_next/image?url=https%3A%2F%2Fmedia.viacation.com%2Fblogs%2F7dda67121113be9a5ca33.jpg&w=2560&q=75"></a>
+        <div class="overlay">
+            <h3>South India</h3>
+            <p>Starting at ₹3,800 <br> Per person</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="http://127.0.0.1:5500/GAP/himachal.html"><img src="https://assets.cntraveller.in/photos/66ab6453fe4fdad0450b3402/master/pass/GettyImages-1580694292.jpg"></a>
+        <div class="overlay">
+            <h3>Himachal Pradesh</h3>
+            <p>Starting at ₹4,200 <br> Per person</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="http://127.0.0.1:5500/GAP/NI.html"><img src="https://travelogyindia.b-cdn.net/storage/app/upload/northeast-history.jpg"></a>
+        <div class="overlay">
+            <h3>North-East</h3>
+            <p>Starting at ₹1,600 <br> Per person</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="http://127.0.0.1:5500/GAP/adaman.html"><img src="https://www.explorebees.com/uploads/blogs/HOW+TO+REACH+Andaman+and+Nicobar+Islands.jpg"></a>
+        <div class="overlay">
+            <h3>Andaman And Nicobar</h3>
+            <p>Starting at ₹6,000 <br> Per person</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="http://127.0.0.1:5500/GAP/uk.html"><img src="https://static.toiimg.com/thumb/103720915/Tapovan-Uttarakhand.jpg?width=636&height=358&resize=4"></a>
+        <div class="overlay">
+            <h3>Uttarakhand</h3>
+            <p>Starting at ₹3,900 <br> Per person</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="http://127.0.0.1:5500/GAP/kashmir.html"><img src="https://www.viacation.com/_next/image?url=https%3A%2F%2Fmedia.viacation.com%2Fb2ab33666e898e6cac7f8.webp&w=2560&q=75"></a>
+        <div class="overlay">
+            <h3>Kashmir</h3>
+            <p>Starting at ₹2,300 <br> Per person</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
